@@ -53,7 +53,7 @@ button {
     
 }
 
-.hero, .footer {
+.header, .hero, .footer {
     background-color: #1f2937;
 }
 
@@ -139,8 +139,6 @@ button {
     max-width: 100%;
 }
 
-/* Flex alignment rules */
-
 .hero, .info, .quote-area, .action-container {
     flex: 1;
 }
@@ -151,13 +149,7 @@ button {
     align-items: center;
 }
 
-.header {
-    background-color: #1f2937;
-    display: flex;
-}
-
 header {
-    flex: 1;
     display: flex;
     justify-content: space-between;
     padding: 8px 96px;
@@ -192,5 +184,3 @@ header {
     margin-bottom: 96px;
     justify-content: center;
 }
-
-/* End flex alignment rules */
