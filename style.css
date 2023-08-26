@@ -151,6 +151,19 @@ button {
     align-items: center;
 }
 
+.header {
+    background-color: #1f2937;
+    display: flex;
+}
+
+header {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 96px;
+
+}
+
 .hero, .info, .quote-area {
     flex-direction: column;
 }
@@ -158,21 +171,6 @@ button {
 .quote-attribute {
     font-weight: bold;
     align-self: flex-end;
-}
-
-.header {
-    flex: 1;
-    display: flex;
-    justify-content: space-between;
-}
-
-header {
-    display: flex;
-    flex: 1;
-}
-
-.logo {
-    margin-right: auto;
 }
 
 .hero-box {
