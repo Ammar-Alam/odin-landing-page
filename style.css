@@ -1,0 +1,184 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 28px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero-signup-button {
+    margin-top: 8px;
+}
+
+.hero-image {
+    color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: solid black 2px;
+    background-color: #808080;
+    border-radius: 10px;
+}
+
+
+.hero, .footer {
+    background-color: #1f2937;
+}
+
+.hero-title {
+    font-size: 48px; 
+    font-weight: bold; 
+    color:  #f9faf8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f8faf8;
+}
+
+.quote-area {
+    background-color: #e5e7eb;
+    padding: 96px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.action-container {
+    margin: 120px 48px;
+}
+
+.action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 48px;
+    margin: 0 120px;
+}
+
+.action-header {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.action-signup-button button {
+    outline: solid white 2px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 36px;
+}
+
+.footer {
+    color: #f9faf8;
+    padding: 24px;
+}
+
+.info-card {
+    max-width: 150px;
+}
+
+.card-image {
+    outline: solid #3882f6 4px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 8px;
+}
+
+/* Flex alignment rules */
+
+.hero, .info, .quote-area, .action-container {
+    flex: 1;
+}
+
+.hero, .info, .quote-area, .action-container, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero, .info, .quote-area {
+    flex-direction: column;
+}
+
+.quote-attribute {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+header {
+    flex: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.hero-box {
+    display: flex;
+    flex: 1;
+    padding: 96px;
+    gap: 20px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.info-card-table {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+    margin-bottom: 96px;
+    justify-content: center;
+}
+
+/* End flex alignment rules */
