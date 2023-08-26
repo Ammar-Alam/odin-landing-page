@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -46,10 +47,11 @@ button {
     justify-content: center;
     align-items: center;
     outline: solid black 2px;
-    background-color: #808080;
+    background-color: black;
+    background-image: url(./img/hero.jpg);
     border-radius: 10px;
+    
 }
-
 
 .hero, .footer {
     background-color: #1f2937;
@@ -129,6 +131,12 @@ button {
     height: 150px;
     width: 150px;
     margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.card-image img {
+    object-fit: cover;
+    max-width: 100%;
 }
 
 /* Flex alignment rules */
@@ -152,10 +160,15 @@ button {
     align-self: flex-end;
 }
 
-header {
-    flex: auto;
+.header {
+    flex: 1;
     display: flex;
     justify-content: space-between;
+}
+
+header {
+    display: flex;
+    flex: 1;
 }
 
 .logo {
@@ -167,6 +180,7 @@ header {
     flex: 1;
     padding: 96px;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .hero-text {
